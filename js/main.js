@@ -18,5 +18,5 @@ $(document).ready(function(){
     $('.project-area .grid .test-popup-link').magnificPopup({
         type: 'image'
     });
-    
+
 });
