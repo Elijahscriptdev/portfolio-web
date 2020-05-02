@@ -2,11 +2,12 @@
 
 body {
   margin: 0%;
-  padding: 0%;
+  /* padding: 5% 0% 43% 0%; */
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   color: #09585d;
+  /* background: wheat; */
   background: url('https://res.cloudinary.com/elijjaaahhhh/image/upload/v1588413095/brandi-redd-aJTiW00qqtI-unsplash_jg5xfe.jpg') no-repeat;
   /* background: linear-gradient(
       rgba(255, 0, 0, 0.45), 
@@ -97,7 +98,11 @@ nav button {
 
 /* banner area */
 .first {
-  margin: 75% auto;
+  min-height: 100vh;
+}
+
+.margin {
+  margin-top: 50%;
 }
 
 .site-main .site-banner .site-title h4 {
