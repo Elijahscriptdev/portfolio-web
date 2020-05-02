@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-html,
 body {
   margin: 0%;
   padding: 0%;
-box-sizing: border-box;
-width: 100%;
-height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
   color: #09585d;
-  background: url('https://res.cloudinary.com/elijjaaahhhh/image/upload/v1588413095/brandi-redd-aJTiW00qqtI-unsplash_jg5xfe.jpg');
+  background: url('https://res.cloudinary.com/elijjaaahhhh/image/upload/v1588413095/brandi-redd-aJTiW00qqtI-unsplash_jg5xfe.jpg') no-repeat;
   /* background: linear-gradient(
       rgba(255, 0, 0, 0.45), 
       rgba(255, 0, 0, 0.45)
@@ -98,7 +97,7 @@ nav button {
 
 /* banner area */
 .first {
-  margin: 190px auto;
+  margin: 250px auto;
 }
 
 .site-main .site-banner .site-title h4 {
