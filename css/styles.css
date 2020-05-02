@@ -75,9 +75,14 @@ background-size: cover;
   color: #064146;
 }
 
-.navbar-toggler,
+nav button {
+  border: 2px solid #09585d !important;
+}
+
 .navbar-toggler-icon {
-  color: #09585D;
+  color: #09585D!important;
+  /* border: 1px solid #b3b3b3; */
+  /* background: #141313; */
 }
 
 .btn-color {
@@ -195,4 +200,50 @@ button:active {
   .second{
     text-align: center;
   }
+}
+
+@media (max-width: 986px) {
+  .header-area .main-menu .navbar {
+  padding: 0.5rem 1rem;
+}
+
+.header-area .main-menu .navbar-nav .nav-link {
+  font-family: var(--roboto);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: #09585d;
+}
+
+.navbar .logo {
+  border: 2px solid #09585d !important;
+  color: #09585d;
+  padding: 5px 10px;
+}
+
+.navbar .logo:hover {
+  /* border: 2px solid #fff !important; */
+  color: #064146;
+}
+
+.header-area .main-menu .navbar-nav .active {
+  border-bottom: 3px solid #064146;
+}
+
+.header-area .main-menu .navbar-nav .nav-link:hover {
+  border-bottom: 3px solid #09585d;
+}
+
+.fab,
+.fas {
+  font-size: 1.5rem;
+  margin: 0 15px;
+  /* background-color: #09585d; */
+  color: #064146;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  color: #09585d;
+}
+
 }
