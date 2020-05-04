@@ -214,10 +214,12 @@ button:active {
 
 .intro {
     position: relative;
+    text-align: center;
 }
 
 .intro img {
     box-shadow: var(--bs);
+    margin: 0 auto;
 }
 
 .section-subtitle-intro {
@@ -228,7 +230,7 @@ button:active {
     .intro {
         display: grid;
         width: min-content;
-        margin: 0 auto;
+        margin: 5.5em auto;
         grid-column-gap: 1em;
         grid-template-areas: 
         "img title"
@@ -285,11 +287,13 @@ button:active {
 
 .about-me {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 5.5em auto;
+    text-align: center;
 }
 
 .about-me img {
     box-shadow: var(--bs);
+    margin: 0 auto;
 }
 
 .section-subtitle-about {
@@ -298,6 +302,7 @@ button:active {
 
 @media (min-width: 600px) {
     .about-me {
+        margin-top: 5.5em;
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas:
@@ -325,6 +330,10 @@ button:active {
         grid-area: img;
         position: relative;
         z-index: 2;
+    }
+
+    .my-services {
+        margin-top: 4.5em;
     }
 
     .my-services .section-title-services {
