@@ -195,3 +195,42 @@ h3 {
         z-index: 2;
     }
 }
+
+/* my work */
+
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section-subtitle-work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    margin-bottom: 1em;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.portfolio a {
+    margin: 10px 10px;
+}
+
+.portfolio-item {
+    background: var(--clr-accent);
+    overflow: hidden;
+}
+
+.portfolio-img {
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+}
