@@ -1,90 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <script src="https://kit.fontawesome.com/3261fed244.js" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="/Magnific-Popup/dist/magnific-popup.css">
-  <link rel="stylesheet" href="/css/styles.css">
-  <title>Hello, world!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elijah-Dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- header start -->
-  <header class="header-area" id="navbar">
-    <div class="main-menu">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand logo" href="index.html">E-D</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <header>
+        <div class="logo">
+            <img src="/images/favicon-32x32.png" alt="">
+            <!-- E-D -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="mr-auto"></div>
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="/about.html">About</a>
-            <!-- <a class="nav-item nav-link" href="#">Services</a> -->
-            <a class="nav-item nav-link" href="/project.html">Projects</a>
-            <!-- <a class="nav-item nav-link" href="#">Pages</a> -->
-            <a class="nav-item nav-link" href="#">Blog</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-          </div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#my-work" class="nav-link">Porfolio</a></li>
+            </ul>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!-- header end -->
+    </header>
 
-  <!-- main-area start -->
-  <main class="site-main">
-
-    <!-- first banner end -->
-    <section class="site-banner first">
-      <div class="container">
-        <div class="row">
-          <div class="col site-title text-center margin">
-            <h4 class="title-text mt-5">Hello I’m <span class="title-text-span">Obominuru Elijah</span></h4>
-            <h1 class="title-text">Full-stack Developer</h1>
-              <div class="site-buttons">
-                <!-- <button class="button">Download Cv</button>
-                <button class="button-outline py-2 px-4">Hire Me</button> -->
-                <a href="https://github.com/Elijahscriptdev"><i class="fab fa-github"></i></a>
-                <a href="https://web.facebook.com/elijah.obominuru.7"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/ElijahObominuru"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.linkedin.com/in/elijah-obominuru-0b730b143/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/elijjaaahhhh/"><i class="fab fa-instagram"></i></a>
-              </div>
-          </div>
-        </div>
-      </div>
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section-title section-title-intro">
+            Hi, I am <strong>Elijah Obominuru</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-intro">Full-stack developer</p>
+        <img src="/images/eliiiinew.jpg" alt="" class="intro-img">
     </section>
 
-  </main>
-  <!-- main-area end -->
+    <!-- my Services -->
+    <section class="my-services" id="services">
+        <h2 class="section-title section-title-services">
+            What I do
+        </h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia, veniam delectus voluptatibus laborum possimus, 
+                    nisi corrupti quo laboriosam necessitatibus minima neque 
+                    expedita illo voluptates quod enim impedit deleniti accusamus 
+                    obcaecati.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia, veniam delectus voluptatibus laborum possimus, 
+                    nisi corrupti quo laboriosam necessitatibus minima neque 
+                    expedita illo voluptates quod enim impedit deleniti accusamus 
+                    obcaecati.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia, veniam delectus voluptatibus laborum possimus, 
+                    nisi corrupti quo laboriosam necessitatibus minima neque 
+                    expedita illo voluptates quod enim impedit deleniti accusamus 
+                    obcaecati.
+                </p>
+            </div>
+        </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  <script src="/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
-  <script src="/js/main.js"></script>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section-title section-title-about">Who I am</h2>
+        <p class="section-subtitle section-subtitle-about">Full-stack developer Ruby on Rails and React.js.</p>
+        <div class="about-me-body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Officia, veniam delectus voluptatibus laborum possimus, 
+                nisi corrupti quo laboriosam necessitatibus minima neque 
+                expedita illo voluptates quod enim impedit deleniti accusamus 
+                obcaecati.
+            </p>
+        </div>
+
+        <img src="/images/eliiiinew3.png" alt="" class="about-me-img">
+    </section>
+
+    <section class="my-work" id="my-work">
+        <h2 class="section-title section-title-work">My work</h2>
+        <p class="section-subtitle section-subtitle-work">A selection of projects</p>
+
+        <div class="portfolio">
+            <a href="##" class="portfolio-item">
+                <img src="/images/FireShot Capture 058 - BuzzLife - localhost.png" alt="" class="portfolio-img">
+            </a>
+
+            <a href="##" class="portfolio-item">
+                <img src="/images/FireShot Capture 058 - BuzzLife - localhost.png" alt="" class="portfolio-img">
+            </a>
+
+            <a href="##" class="portfolio-item">
+                <img src="/images/FireShot Capture 058 - BuzzLife - localhost.png" alt="" class="portfolio-img">
+            </a>
+
+            <a href="##" class="portfolio-item">
+                <img src="/images/FireShot Capture 058 - BuzzLife - localhost.png" alt="" class="portfolio-img">
+            </a>
+
+            <a href="##" class="portfolio-item">
+                <img src="/images/FireShot Capture 058 - BuzzLife - localhost.png" alt="" class="portfolio-img">
+            </a>
+
+            <a href="##" class="portfolio-item">
+                <img src="/images/FireShot Capture 058 - BuzzLife - localhost.png" alt="" class="portfolio-img">
+            </a>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="mailto:elijjaaahhhh@gmail.com" class="footer-link">
+            elijjaaahhhh@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <!-- <a href="" class="social-list-link"></a> -->
+                <a href="https://github.com/Elijahscriptdev" class="social-list-link"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list-item">
+                <!-- <a href="" class="social-list-link"></a> -->
+                <a href="https://twitter.com/ElijahObominuru" class="social-list-link"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li class="social-list-item">
+                <!-- <a href="" class="social-list-link"></a> -->
+                <a href="https://www.linkedin.com/in/elijah-obominuru-0b730b143/" class="social-list-link"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="social-list-item">
+                <!-- <a href="" class="social-list-link"></a> -->
+                <a href="https://www.instagram.com/elijjaaahhhh/" class="social-list-link"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="/index.js"></script>
 </body>
-
 </html>
