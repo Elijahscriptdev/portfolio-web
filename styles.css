@@ -34,9 +34,9 @@
 
 /* General styles */
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
     background: var(--clr-light);
@@ -261,7 +261,7 @@ button:active {
     margin: 0.5em 0;
 }
 
-.services h3 {
+.services h3{
     margin: 0.5em 0;
 }
 
@@ -364,6 +364,7 @@ button:active {
 
 .portfolio a {
     margin: 10px 10px;
+    width: 85%;
 }
 
 .portfolio-item {
