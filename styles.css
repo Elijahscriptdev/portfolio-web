@@ -249,6 +249,31 @@ button:active {
     }
 }
 
+/* services */
+
+.my-services .section-title-services {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.services {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.services h3 {
+    margin: 0.5em 0;
+}
+
+.service .fa {
+    margin: 0.5em 40%;
+    color: var(--clr-accent);
+}
+
+.service {
+    margin: 0 0.5em;
+}
+
 /* about me */
 
 .about-me {
@@ -293,6 +318,28 @@ button:active {
         grid-area: img;
         position: relative;
         z-index: 2;
+    }
+
+    .my-services .section-title-services {
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service h3 {
+        text-align: center;
+    }
+
+    .service {
+        margin: 0 0.5em;
+    }
+
+    .service .fa {
+        margin: 0 30%;
     }
 }
 
