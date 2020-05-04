@@ -48,7 +48,13 @@ body {
 }
 
 section {
-    padding: 3em 2em;
+    padding: 1em 0em;
+}
+
+.intro,
+.my-services,
+.about-me {
+    padding: 0 2em;
 }
 
 img {
@@ -262,6 +268,7 @@ button:active {
 }
 
 .services h3{
+    text-align: center;
     margin: 0.5em 0;
 }
 
@@ -364,7 +371,6 @@ button:active {
 
 .portfolio a {
     margin: 10px 10px;
-    width: 85%;
 }
 
 .portfolio-item {
@@ -411,3 +417,7 @@ button:active {
 .social-list-item {
     margin: 0 2em;
 }
+
+/* @media (min-width: 600px){
+
+} */
