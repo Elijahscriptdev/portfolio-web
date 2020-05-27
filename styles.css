@@ -398,7 +398,7 @@ button:active {
 
 .portfolio-img:hover {
     transform: scale(1.2);
-    opacity: .5;
+    opacity: .9;
 }
 
 /* footer */
@@ -430,8 +430,9 @@ button:active {
     margin: 0 2em;
 }
 
-.view-img {
-    width: 40%;
+.view-img img {
+    width: 50%;
+    height: 100%;
     margin: 10px auto;
 }
 .fas {
@@ -455,6 +456,18 @@ button:active {
     width: 40%;
     margin: 20px auto;
 }
-/* @media (min-width: 600px){
 
-} */
+@media (max-width: 600px) {
+    .other-images img {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .view-img {
+        width: 80%;
+        /* height: 50%; */
+        margin: 10px auto;
+    }
+
+
+}
