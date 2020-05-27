@@ -163,17 +163,17 @@ nav button {
 
 .site-main .project-area .grid .our-project > .title h4 {
   text-transform: uppercase;
-    font-family: var(--roboto);
+  font-family: var(--roboto);
   font-weight: 700;
   font-size: 25px;
   line-height: 12px;
 }
 
 .site-main .project-area .button-group button {
-    background: transparent;
-    border: none;
-    text-transform: uppercase;
-    font-family: var(--roboto);
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-family: var(--roboto);
   font-weight: 500;
   font-size: 16px;
   line-height: 50px;

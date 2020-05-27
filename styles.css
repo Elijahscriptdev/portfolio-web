@@ -376,6 +376,7 @@ button:active {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* height: 400px; */
 }
 
 .portfolio a {
@@ -388,6 +389,8 @@ button:active {
 }
 
 .portfolio-img {
+    height: 300px;
+    width: 100%;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -427,6 +430,31 @@ button:active {
     margin: 0 2em;
 }
 
+.view-img {
+    width: 40%;
+    margin: 10px auto;
+}
+.fas {
+    margin: 15px;
+    font-size: 35px;
+    color: var(--clr-accent);
+
+}
+
+.project-description,
+.project-functions {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.other-images {
+    display: inline;
+}
+
+.other-images img {
+    width: 40%;
+    margin: 20px auto;
+}
 /* @media (min-width: 600px){
 
 } */
